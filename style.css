@@ -849,6 +849,14 @@ img {
     gap: 30px;
 }
 
+.video-reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .video-card {
     background: var(--bg-main);
     border-radius: var(--radius-md);
@@ -1864,7 +1872,7 @@ textarea.form-input {
     .section-title {
         font-size: 2rem;
     }
-    .video-grid {
+    .video-grid, .video-reviews-grid {
         grid-template-columns: 1fr;
     }
     .gallery-grid {
